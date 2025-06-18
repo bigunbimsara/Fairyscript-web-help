@@ -30,3 +30,41 @@
   </footer>
 </body>
 </html>
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #121212;
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 30px 10px;
+  background: #1f1f1f;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.code-card {
+  background: #222;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.code-card a {
+  color: #00f5d4;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #1a1a1a;
+  font-size: 14px;
+}
